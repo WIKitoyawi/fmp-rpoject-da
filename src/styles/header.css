@@ -1,31 +1,74 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo-container {
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 65px; /* Регулируйте размер логотипа */
+  height: auto;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #714C8D;
+  font-family: 'Iowan Old Style', serif;
+}
+
+.navigation {
   
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #673ab7;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-  }
-  
-  nav ul li a:hover {
-    color: #673ab7;
-  }
-  
+  margin-left: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Расстояние между элементами меню */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 16px;
+}
+
+.navigation a:hover {
+  color: #7a57d1; /* Цвет при наведении */
+}
+
+.separator {
+  color: #616161;
+  font-size: 17px;
+}
+
+.user-avatar {
+  margin-left: 20px;
+  margin-right: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center -20px;
+  border: 2px solid #ccc; /* Добавляем границу вокруг аватарки */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+}
